@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-perf-mistakes-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable tests behind the article 'Why Your Node.js API Is Slow in Production: 10 Mistakes That Pass Code Review'",
+  "scripts": {
+    "test:all": "node tests/run-all.js"
+  },
+  "devDependencies": {
+    "express": "4.21.2",
+    "fast-json-stringify": "6.0.1"
+  },
+  "engines": { "node": ">=22" }
+}
